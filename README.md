@@ -74,7 +74,3 @@ Feel free to fork the project, make changes, and submit pull requests. All contr
 ## License
 
 This project is open-source and is licensed under the MIT License. 
-
----
-
-Make sure to replace placeholders like `https://github.com/your-username/vocab-builder.git` with your actual repository URL. Adjust any other information as necessary to better fit your project.
