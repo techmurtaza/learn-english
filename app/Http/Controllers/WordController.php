@@ -15,8 +15,8 @@ class WordController extends Controller
      */
     public function index() {
         try {
-            $words = Word::paginate(20);
-            return response()->json( $words, 200);
+            $words = Word::with('parts_of_speech')->paginate(20);
+            return response()->json($words, 200);
         } catch (\Exception $e) {
             Log::error($e->getMessage());
             return response()->json(['error' => 'Something went wrong'], 500);
